@@ -14,15 +14,16 @@
 
 # METRAL
 
-
 ![Version](https://img.shields.io/badge/Version-v0.1.0-blue)
+[![PyPI](https://img.shields.io/badge/PyPI-available-blue?logo=pypi&logoColor=white)](https://pypi.org/search/?q=metral)
 [![License](https://img.shields.io/badge/License-GPL_3.0-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
-![Platform](https://img.shields.io/badge/Platform-linux--64_%7C_win--64_%7C_macos--arm64-gray)
-[![CUDA](https://img.shields.io/badge/CUDA-v12.2+_%7c_v13.x-%2376B900?logo=nvidia)](https://developer.nvidia.com/cuda-toolkit-archive)
-[![C++](https://img.shields.io/badge/C%2B%2B-C%2B%2B20-orange)](https://isocpp.org/)
-[![Python](https://img.shields.io/badge/python-3.8--3.13-blue?logo=python)](https://www.python.org/)
-[![CMake](https://img.shields.io/badge/CMake-v3.20%2B-%23008FBA?logo=cmake)](https://cmake.org/)
 
+![Platform](https://img.shields.io/badge/Platform-linux--64_%7C_win--64_wsl2%7C_aarch64-gray)
+
+[![CUDA](https://img.shields.io/badge/CUDA-v12.2+_%7c_v13.x-%2376B900?logo=nvidia)](https://developer.nvidia.com/cuda-toolkit-archive)
+[![GCC](https://img.shields.io/badge/GCC-v11.0-yellow)](https://gcc.gnu.org/gcc-11/changes.html)
+[![Python](https://img.shields.io/badge/python-3.10--3.14-blue?logo=python)](https://www.python.org/)
+[![CMake](https://img.shields.io/badge/CMake-v3.24.3+-%23008FBA?logo=cmake)](https://cmake.org/)
 
 METRAL (Metric 3D Reconstruction Framework) is an efficient and robust framework for large-scale metric 3D reconstruction. It provides a complete pipeline for image-based reconstruction, integrating Structure-from-Motion (SfM), Multi-View Stereo (MVS), and 3D Gaussian Splatting (3DGS) with scalable geometric optimization and high-performance computing.
 
