@@ -16,17 +16,11 @@
 
 
 ![Version](https://img.shields.io/badge/Version-v0.1.0-blue)
-
 [![License](https://img.shields.io/badge/License-GPL_3.0-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
 ![Platform](https://img.shields.io/badge/Platform-linux--64_%7C_win--64_%7C_macos--arm64-gray)
-
-[![CUDA](https://img.shields.io/badge/CUDA-v12.1--v12.8-%2376B900?logo=nvidia)](https://developer.nvidia.com/cuda-toolkit-archive)
-
+[![CUDA](https://img.shields.io/badge/CUDA-v12.2+_%7c_v13.x-%2376B900?logo=nvidia)](https://developer.nvidia.com/cuda-toolkit-archive)
 [![C++](https://img.shields.io/badge/C%2B%2B-C%2B%2B20-orange)](https://isocpp.org/)
-
 [![Python](https://img.shields.io/badge/python-3.8--3.13-blue?logo=python)](https://www.python.org/)
-
 [![CMake](https://img.shields.io/badge/CMake-v3.20%2B-%23008FBA?logo=cmake)](https://cmake.org/)
 
 
@@ -49,6 +43,7 @@ METRAL is designed for researchers and developers in computer vision, photogramm
 - View graph construction and optimization
 - Camera pose estimation
 - Multi-view triangulation
+- Scalable incremental reconstruction
 
 
 ### Multi-View Stereo (MVS)
@@ -80,6 +75,22 @@ METRAL is designed for researchers and developers in computer vision, photogramm
 - CUDA accelerated reconstruction modules
 - Parallel computation pipelines
 - Efficient memory management
+- Large-scale GPU computation
+
+
+## Supported Platforms
+
+- Linux
+- Windows
+- macOS (Apple Silicon / Intel)
+
+
+## Development Environment
+
+- C++20
+- CUDA 12.1 - 12.8
+- Python 3.8 - 3.13
+- CMake >= 3.20
 
 
 ## Documentation
